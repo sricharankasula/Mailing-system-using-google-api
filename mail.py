@@ -21,7 +21,7 @@ recipient_emails = []#add recipients' addressess
 a=0
 # Create a MIMEText object for the email content
 for recipient_email in recipient_emails:
-    message = MIMEText("Dear Sir/Ma'am,\nGreetings From Veltron Equipments.\nWe thank you very much for your kind visit to our stall at the recently concluded HIPLEX - International Plastics Show held in Hyderabad.\nWe appreciate your kind gesture in showing interest in our products.\n\nWe are manufacturers of below mentioned products:\n\tCORONA TREATERS\n\tAUTO LOADERS\n\tHOPPER DRIERS\n\tDEHUMIDIFIERS\n\tINDUCTION CAP SEALERS\n\nWe look forward to your revert and assist you on above products.\n\nBest regards,\nVenkatesh\n9394704575\n9533704575")
+    message = MIMEText("Add your message hear")
     message['to'] =  recipient_email # Join the recipient emails with commas
     message['subject'] = 'HI-PLEX 2023'
 
